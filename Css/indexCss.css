@@ -5,11 +5,23 @@
     background-color: rgb(255, 228, 228);
 }
 
+form {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+    display: list-item;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+}
+
 .forms .title {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 20px;
-    margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 10;
     font-size: 26px;
@@ -30,19 +42,6 @@
     left: 25%;
     max-width: 50%;
     color: rgb(31, 31, 31);
-}
-
-form {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: auto;
-    max-width: 50%;
-    display: list-item;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 25%;
 }
 
 form .askText input {
@@ -122,4 +121,39 @@ form .send input:hover {
     height: auto;
     padding: 50px;
     padding-bottom: 25px;
+}
+
+@media screen and (max-width: 667px) {
+    form {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 0px;
+        position: relative;
+        left: 0%;
+    }
+    .forms .title {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 10;
+        font-size: 26px;
+        background-color: rgb(190, 79, 79);
+        position: relative;
+        left: 0%;
+        max-width: 100%;
+    }
+    .forms .aviso {
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 10;
+        font-size: 13px;
+        padding-bottom: 40px;
+        background-color: rgb(190, 79, 79);
+        position: relative;
+        left: 0%;
+        max-width: 100%;
+        color: rgb(31, 31, 31);
+    }
 }
