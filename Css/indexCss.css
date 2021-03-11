@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 228, 228);
+}
+
+.forms .title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10;
+    font-size: 26px;
+    background-color: rgb(190, 79, 79);
+    position: relative;
+    left: 25%;
+    max-width: 50%;
+}
+
+.forms .aviso {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 10;
+    font-size: 13px;
+    padding-bottom: 40px;
+    background-color: rgb(190, 79, 79);
+    position: relative;
+    left: 25%;
+    max-width: 50%;
+    color: rgb(31, 31, 31);
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+    display: list-item;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+}
+
+form .askText input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 102, 102);
+    outline: none;
+    padding: 10px;
+    transition: .5s;
+    background-color: white;
+}
+
+form .askCheck label {
+    background-color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+form .askCheck .checks {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+form .askText input:focus {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+form h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 50;
+    margin-bottom: 25px;
+    color: black;
+    background-color: white;
+}
+
+form p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 50;
+    margin-top: 25px;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+form .send input {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .send {
+    padding-top: 15px;
+}
+
+form .send input:hover {
+    background-color: rgb(190, 79, 79);
+    border-color: rgb(190, 79, 79);
+    transform: scale(1.03);
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.askText {
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 50px;
+}
+
+.askCheck {
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    padding-bottom: 25px;
+}
